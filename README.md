@@ -1,5 +1,5 @@
 # python-challenge
-<b>The PyBank script outputs the following data from budgetdata.csv:</b><br>
+<b>The PyBank script outputs the following information from budgetdata.csv:</b><br>
 -The total number of months included in the dataset<br>
 -The net total amount of "Profit/Losses" over the entire period<br>
 -The average of the changes in "Profit/Losses" over the entire period<br>
