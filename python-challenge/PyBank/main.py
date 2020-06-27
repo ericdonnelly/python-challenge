@@ -31,7 +31,7 @@ with open(csvpath) as csvfile:
         month_count = len(months)
 #zip function used to determine initial and subsequent value in profit/losses column
     for initial_value, next_value in zip(profitlosses, profitlosses[1:]):
-#calculate the changes
+#calculate the changes and append to changes list
         changes.append(int(initial_value) - int(next_value))
 #calculate average change
         total_change = sum(changes)
